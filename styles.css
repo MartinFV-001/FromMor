@@ -1,0 +1,50 @@
+body {
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%234c0000' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%236c0000' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23840000' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23980000' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23A00' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  #titulo.gold-title {
+    border: 5px solid gold;
+    padding: 10px;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Italianno', cursive;
+  }
+  
+  .Italianno-regular {
+    font-family: 'Italianno', cursive;
+  }
+  
+  article {
+    margin: 2em 0;
+    background: linear-gradient(45deg, #ffbc00, #ff0058);
+    border-radius: 1.2em;
+    border: 2px solid gold;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 1.5em;
+  }
+  
+  .post img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
